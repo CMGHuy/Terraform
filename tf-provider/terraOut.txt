@@ -1,0 +1,22 @@
+all-availability-domains-in-your-tenancy = tolist([
+  {
+    "compartment_id" = "ocid1.compartment.oc1..example"
+    "id" = "ocid1.availabilitydomain.oc1..example"
+    "name" = "gesK:EU-FRANKFURT-1-AD-1"
+  },
+  {
+    "compartment_id" = "ocid1.compartment.oc1..example"
+    "id" = "ocid1.availabilitydomain.oc1..example"
+    "name" = "gesK:EU-FRANKFURT-1-AD-2"
+  },
+  {
+    "compartment_id" = "ocid1.compartment.oc1..example"
+    "id" = "ocid1.availabilitydomain.oc1..example"
+    "name" = "gesK:EU-FRANKFURT-1-AD-3"
+  },
+])
+name-of-the-first-availability-domain = "gesK:EU-FRANKFURT-1-AD-1"
+testMachine_ip = [
+  "10.xx.xx.5",
+  "10.xx.xx.6",
+]
